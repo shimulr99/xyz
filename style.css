@@ -1,0 +1,252 @@
+*{margin: 0;
+padding: 0;
+}
+header{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+}
+.nav{
+    width:960px ;
+    height: auto;
+    background-color: #000;
+}
+.nav ul li{
+    list-style: none;
+    display: inline-block;  
+    position: relative; 
+}
+.nav ul li a{
+    display: block;
+    padding: 20px 35px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase
+    
+    
+}
+.nav ul li a:hover{
+    color: yellow;
+    background-color: red;
+
+} 
+.nav ul li ul{
+      position: absolute;
+      background: #000;
+      left: -9999px ;
+}
+.nav ul li:hover ul{
+          left: 0px;
+      }
+.nav ul li ul li{
+    width: 150px;
+    border-bottom: 1px solid #fff;
+}
+.banner-cover{
+    height: 50vh;
+    background-position: center ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 1px;
+}
+.banner-text button{
+font-size: 20px;
+font-weight: bold;
+text-transform: uppercase;
+background-color: rgb(11, 223, 223);
+padding:20px ;
+border:1px ;
+color: white ;
+margin: 0px 8px;
+
+}
+
+.banner-text{
+    padding: 100px ;
+    text-align: center;
+    
+}
+.about-logo img{
+    width: 320px;
+    height: auto;
+    margin-left: 8px;
+
+}
+.about-text{
+    width: 520px;
+    height: auto;
+    padding: 0px 20px;
+
+}
+.row{
+    overflow: auto;
+}
+.col{
+    float:left;
+}
+.about-section{
+    padding: 40px 0px;
+    background: rgb(198, 219, 156);
+    margin-top: 20px;
+}
+.title {
+   width: 220px;
+   height: auto;
+   margin: 0 auto;
+
+
+}
+.title h2{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    border-bottom: 1px solid white;
+    text-align: right;
+    margin-bottom: 30px;
+}
+.service{
+    width: 300px;
+    height: auto;
+    border: 1px solid white;
+    display: inline-block;
+    margin-bottom: 5px;
+    margin-left: 10px;
+    padding: 0px 8px;
+}  
+.service-section{
+    background: #8a8b84;
+    padding:40px 0px;
+    margin-top: 10px;
+}
+    
+.serv-icon i{
+    font-size: 60px;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    color:#fff;
+    transition: .5s   ;
+    -webkit-transition: .5s   ;
+    -moz-transition: .5s   ;
+    -ms-transition: .5s   ;
+    -o-transition: .5s   ;
+}
+.serv-icon i:hover{
+    color: rgb(226, 19, 70);
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+}
+.service h3{
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    margin-left:10px ;
+}
+.service p{
+    font-size: 15px;
+    color: rgb(226, 209, 209);
+    line-height: 22px;
+    padding: 0px 10px;
+}
+.contact{
+    background: #f7f0f0;
+    padding: 15px 15px 15px 70px;
+    box-shadow: 0px 0px 60px #ccc;
+    width: 180px;
+    position: relative;
+    display: inline-block;
+    margin: 0px 60px;
+    
+    ;
+}
+.cont-icon i{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    float: left;
+    top: 25px;
+    left: 15px;
+    background: blue;
+    text-align: center;
+    color: rgba(233, 13, 13, 0.966);
+    line-height: 50px;
+    font-size: 30px;
+}
+.cont-icon i:hover{
+    color: yellow;
+    transform: scale(.8);
+    -webkit-transform: scale(.8);
+    -moz-transform: scale(.8);
+    -ms-transform: scale(.8);
+    -o-transform: scale(.8);
+
+}
+cont-text p{
+    padding: 0px;
+    margin: 0px;
+    font-size: 20px;
+    line-height: 10px;
+    
+}
+.title h2{
+    padding: 0;
+    margin-top:30px;
+
+    
+}
+.contac-section{
+background-color: rgb(126, 101, 101);
+padding: 0;
+margin-top: 20px;
+margin-right: 10px;
+
+
+}
+.contact-form{
+    width: 620px;
+    height: 40px 0px;
+    margin: 0px auto;
+    margin: 30px 100px;
+  
+}
+.inputTag input{
+    font-size: 20px;
+    text-transform: capitalize;
+    padding:10px 10px;
+    width: 300px;
+    border: 0 ;
+    margin: 6px 0px;
+}
+.inputTag textarea{
+
+    width: 500px;
+    height: auto;
+
+}
+.inputTag button{
+width: 81%;
+padding: 5px 1px;
+font-size: 13px;
+font-weight: bold;
+text-transform: uppercase;
+background: rgb(133, 109, 109);
+}
+.inputTag button:hover{
+    color: yellow;
+}
+.footer{
+    width: auto;
+    background-color: darkturquoise;
+    border: 3px solid;
+}
+.footer-icon{
+    
+
+}
